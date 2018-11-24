@@ -1,0 +1,139 @@
+﻿<Window x:Class="WpfApp5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="140*"></RowDefinition>
+            <RowDefinition Height="20*"/>
+
+            <RowDefinition Height="140*"></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="265*"></ColumnDefinition>
+            <ColumnDefinition Width="265*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="kk"  Grid.Row="1" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="Button1" Grid.Column="0" Grid.Row="0" Click="Button_Click_3">
+                Zlochin
+                <Button.Background>
+                    <ImageBrush ImageSource="ggg/film1.jpg"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Button2" Grid.Column="1" Grid.Row="0" Click="Button_Click_1">
+                Vdovu
+                <Button.Background>
+                    <ImageBrush ImageSource="ggg/film2.jpg"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="Button3" Grid.Column="2" Grid.Row="0" Click="Button_Click_2"  >
+                Girl
+                <Button.Background>
+                    <ImageBrush ImageSource="ggg/film3.jpg" />
+                </Button.Background>
+            </Button>
+        </Grid>
+        <Grid x:Name="kkd"  Grid.Row="1" Grid.Column="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Click="Button_Click_4" >
+                <Button.Background>
+                    <ImageBrush ImageSource="ggg/strela2.png" />
+                </Button.Background>
+            </Button>
+            <Button Grid.Column="1" Click="Button_Click_5">
+                <Button.Background>
+                    <ImageBrush ImageSource="ggg/strela.png" />
+                </Button.Background>
+            </Button>
+            <Button x:Name="Kek" Grid.Column="2" Click="Button_Click_6" IsEnabled="False">
+                PRINT TICKET
+            </Button>
+        </Grid>
+        <Grid x:Name="ds"  Grid.Row="3" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="Button01" Content="1" Grid.Row="0" Grid.Column="1" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button02"  Content="2" Grid.Row="0" Grid.Column="2" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button03" Content="3" Grid.Row="0" Grid.Column="3" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button04" Content="4" Grid.Row="0" Grid.Column="4" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button05" Content="5" Grid.Row="0" Grid.Column="5" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button06" Content="6" Grid.Row="1" Grid.Column="1" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button07" Content="7" Grid.Row="1" Grid.Column="2" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button08" Content="8" Grid.Row="1" Grid.Column="3" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button09" Content="9" Grid.Row="1" Grid.Column="4" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button10" Content="10" Grid.Row="1" Grid.Column="5" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button11" Content="11" Grid.Row="2" Grid.Column="2" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button12" Content="12" Grid.Row="2" Grid.Column="3" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button13" Content="13" Grid.Row="2" Grid.Column="4" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button14" Content="14" Grid.Row="3" Grid.Column="1" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button15" Content="15" Grid.Row="3" Grid.Column="2" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button16" Content="16" Grid.Row="3" Grid.Column="3" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button17" Content="17" Grid.Row="3" Grid.Column="4" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button18" Content="18" Grid.Row="3" Grid.Column="5" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button19" Content="19" Grid.Row="5" Grid.Column="3" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button20" Content="20" Grid.Row="6" Grid.Column="2" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button21" Content="21" Grid.Row="6" Grid.Column="3" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button22" Content="22" Grid.Row="6" Grid.Column="4" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button23" Content="23" Grid.Row="7" Grid.Column="1" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button24" Content="24" Grid.Row="7" Grid.Column="2" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button25" Content="25" Grid.Row="7" Grid.Column="3" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button26" Content="26" Grid.Row="7" Grid.Column="4" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button27" Content="27" Grid.Row="7" Grid.Column="5" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button28" Content="28" Grid.Row="8" Grid.Column="0" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button29" Content="29" Grid.Row="8" Grid.Column="1" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button30" Content="30" Grid.Row="8" Grid.Column="2" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button31" Content="31" Grid.Row="8" Grid.Column="3" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button32" Content="32" Grid.Row="8" Grid.Column="4" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button33" Content="33" Grid.Row="8" Grid.Column="5" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button34" Content="34" Grid.Row="8" Grid.Column="6" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button35" Content="35" Grid.Row="9" Grid.Column="0" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button36" Content="36" Grid.Row="9" Grid.Column="1" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button37" Content="37" Grid.Row="9" Grid.Column="2" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button38" Content="38" Grid.Row="9" Grid.Column="3" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button39" Content="39" Grid.Row="9" Grid.Column="4" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button40" Content="40" Grid.Row="9" Grid.Column="5" IsEnabled="False" Click="Button_Click"/>
+            <Button x:Name="Button41" Content="41" Grid.Row="9" Grid.Column="6" IsEnabled="False" Click="Button_Click"/>
+
+        </Grid>
+        <TextBox Grid.Row="2" Grid.Column="2" Panel.ZIndex="-1" HorizontalAlignment="Center" >
+            FILM INFO:
+        </TextBox>
+        <TextBox x:Name="Textinfo" Grid.Row="3" Grid.Column="2" IsReadOnly="True"></TextBox>
+    </Grid>
+</Window>
